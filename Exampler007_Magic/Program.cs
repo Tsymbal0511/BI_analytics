@@ -36,10 +36,10 @@ y = (y + yb) / 2;
 }
 if (what == 2)
 {
-x = (x + xс) / 2;
-y = (y + yс) / 2;
+x = (x + xc) / 2;
+y = (y + yc) / 2;
 }
-Console.Set.CursorPosition(x, y);
+Console.SetCursorPosition(x, y);
 Console.WriteLine("+");
 count++;
 }
